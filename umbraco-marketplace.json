@@ -1,0 +1,53 @@
+﻿{
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "Category": "Developer Tools",
+  "Title": "uTPro SEO Audit",
+  "Description": "Site-wide SEO & content audit for Umbraco (16, 17, 18). Crawls every Content & Media URL (plus sitemap.xml), checks for broken links, images and resources, and audits each page: SEO (title, meta description, canonical, H1-H3, noindex/nofollow, lang), Open Graph & Twitter cards, technical SEO (HTTPS, gzip, browser caching, schema.org, viewport, favicon), content quality (word count, readability, keyword density, thin & duplicate content), a static accessibility subset and estimated carbon emissions with an A-F rating. Get a per-run health score, a per-page composite SEO score (Lighthouse-style, 0-100), issues grouped by severity and priority, orphaned-page detection, incremental scans, CSV export and a per-page detail view - all inside the backoffice. Adds a per-node SEO Audit tab in the Content and Media editors that auto-audits on open. Runs as a recurring background job (auto-discovered by uTPro Job Monitor). Server-side and SSRF-safe. Built on the framework-agnostic T4VN.Seo.Core engine.",
+  "AuthorDetails": {
+    "Name": "T4VN",
+    "Url": "https://t4vn.com",
+    "ImageUrl": "https://github.com/t4vn.png",
+    "SyncContributorsFromRepository": true
+  },
+  "LicenseTypes": [
+    "Free"
+  ],
+  "Tags": [
+    "seo",
+    "seo audit",
+    "site audit",
+    "content audit",
+    "crawler",
+    "broken links",
+    "broken link checker",
+    "seo score",
+    "health score",
+    "accessibility",
+    "sitemap",
+    "carbon",
+    "orphaned pages",
+    "duplicate content",
+    "redirect",
+    "cloaking",
+    "developer tools",
+    "background job"
+  ],
+  "LookingForContributors": true,
+  "PackageType": "Package",
+  "DocumentationUrl": "https://github.com/T4VN/uTPro.Feature.SEOAudit",
+  "IssueTrackerUrl": "https://github.com/T4VN/uTPro.Feature.SEOAudit/issues",
+  "Screenshots": [
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/T4VN/uTPro.Feature.SEOAudit/refs/heads/main/Images/Screenshots/SiteScan.png",
+      "Caption": "Site Audit - crawl every Content & Media URL and browse the report, health score, SEO score and issues"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/T4VN/uTPro.Feature.SEOAudit/refs/heads/main/Images/Screenshots/Error.png",
+      "Caption": "Error URLs - the standing list of failing URLs with one-click re-scan"
+    },
+    {
+      "ImageUrl": "https://raw.githubusercontent.com/T4VN/uTPro.Feature.SEOAudit/refs/heads/main/Images/Screenshots/NodeScan.png",
+      "Caption": "Per-node SEO Audit tab in the Content editor"
+    }
+  ]
+}
